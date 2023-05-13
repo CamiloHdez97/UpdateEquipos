@@ -1,8 +1,8 @@
 sudo apt-get update -y && sudo apt-get upgrade -y&& 
 cd Downloads &&
-wget 'https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb' &&
-wget 'https://dl.discordapp.net/apps/linux/0.0.27/discord-0.0.27.deb' &&
-gdebi code_1.78.2-1683731010_amd64.deb &&
-gdebi discord-0.0.27.deb &&
+sudo wget 'https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb' &&
+sudo wget 'https://dl.discordapp.net/apps/linux/0.0.27/discord-0.0.27.deb' &&
+sudo gdebi code_1.78.2-1683731010_amd64.deb &&
+sudo gdebi discord-0.0.27.deb &&
 rm -f code_1.78.2-1683731010_amd64.deb &&
 rm -f discord-0.0.27.deb && cd
